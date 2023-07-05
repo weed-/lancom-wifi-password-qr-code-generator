@@ -16,6 +16,10 @@ Im Lieferumfang:
 - wifi-qr.cmd bearbeiten: Config-Variablen füllen
 - "logo.png" (z.B. Firmenlogo) in Ziel-Verzeichnis ablegen (für das HTML, etwa 230pc)
 
+## Fehler
+Syntaxfehler.
+Hast du WIRKLICH alle Variablen zu Beginn gefüllt und keine "<" oder ">" über gelassen?
+
 ## ToDo
 - Das PNG könnte natürlich auch ein viel cooles Site-integrierts SVG sein
 - Zu Powershell übersetzen

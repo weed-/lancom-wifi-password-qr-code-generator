@@ -7,6 +7,8 @@ REM     20230615 b.stromberg@data-systems.de
 REM */
 
 REM --- WLC Zugang und Profilname (SSH)
+REM     wlcprofile = Name des Logischen SSID-Netzwerk-Profils (nicht WLC-Profil!)
+REM     wlcssid = Nur fuer die Ausgabe, die SSID wird nicht geändert.
 set wlcadresse=wlc-address
 set wlcuser=<USERNAME>
 set wlcpass=<PASSWORD>
