@@ -42,7 +42,7 @@ REM     -l {LMQH}    error correction level from L (lowest) to H (highest).
 REM     -s {3-99}    dots size (pixels)
 REM     -t {PNG,EPS,SVG,ANSI,ANSI256,ASCII,ASCIIi,UTF8,ANSIUTF8}
 if exist wifi_login.png del /f /q wifi_login.png
-qrencode "WIFI:T:WPA;S:PFLITSCH (Hot-Spot);P:%newpass%;;" -t PNG -l M -o wifi_login.png -s 10
+qrencode "WIFI:T:WPA;S:%wlcssid%;P:%newpass%;;" -t PNG -l M -o wifi_login.png -s 10
 
 REM --- Eine "druckbare" HTLM Seite bauen
 echo ^<html^>^<style^>body {font-family: arial, helv;background: url^(logo.png^) no-repeat;background-size: 226px;background-position: 65px 25px;}^</style^> >wifi_login.html
